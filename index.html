@@ -90,13 +90,14 @@
         <div class="max-w-4xl mx-auto p-6 space-y-6">
 
             <!-- Form section  -->
-            <form action="" id="link" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-4">
+            <form id="link-form" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-4">
 
                 <!-- Input -->
-                <input type="text" class="flex-1 p-3 rounded-lg placeholder-yellow-500 border-2 focus:outline-none" placeholder="Shorten a link here">
+                <input id="input-form" type="text" class="flex-1 p-3 rounded-lg placeholder-yellow-500 border-4  focus:outline-none" placeholder="Shorten a link here">
 
                 <!-- Button  -->
-                <button class="flex-2 p-3 rounded-lg text-center bg-cyan text-white md:px-6 hover:bg-cyanLight focus:outline-none">Shorten It!</button>
+                <button type="submit" class="flex-2 p-3 rounded-lg text-center bg-cyan text-white md:px-6 hover:bg-cyanLight focus:outline-none">Shorten It!</button>
+                <div id="error-form" class="absolute left-11 bottom-3 italic text-red text-sm" ></div>
             </form>
 
             <!-- Link 1 -->
@@ -271,7 +272,7 @@
     </section>
     
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
