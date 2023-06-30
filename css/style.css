@@ -530,24 +530,24 @@ video {
   position: relative;
 }
 
-.-bottom-32 {
-  bottom: -8rem;
-}
-
 .-top-\[52px\] {
   top: -52px;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
 }
 
 .left-1\/2 {
   left: 50%;
 }
 
-.left-20 {
-  left: 5rem;
+.left-11 {
+  left: 2.75rem;
 }
 
-.left-6 {
-  left: 1.5rem;
+.left-20 {
+  left: 5rem;
 }
 
 .left-\[49\%\] {
@@ -568,22 +568,6 @@ video {
 
 .top-24 {
   top: 6rem;
-}
-
-.bottom-3 {
-  bottom: 0.75rem;
-}
-
-.left-8 {
-  left: 2rem;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
-.left-11 {
-  left: 2.75rem;
 }
 
 .mx-auto {
@@ -609,6 +593,10 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -765,26 +753,8 @@ video {
   border-radius: 0.5rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.border {
-  border-width: 1px;
-}
-
 .border-4 {
   border-width: 4px;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-red {
-  --tw-border-opacity: 1;
-  border-color: hsl(0 87% 67% / var(--tw-border-opacity));
 }
 
 .bg-cyan {
@@ -862,6 +832,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-32 {
   padding-bottom: 8rem;
 }
@@ -930,6 +905,11 @@ video {
   color: hsl(257 7% 63% / var(--tw-text-opacity));
 }
 
+.text-red {
+  --tw-text-opacity: 1;
+  color: hsl(0 87% 67% / var(--tw-text-opacity));
+}
+
 .text-veryDarkViolet {
   --tw-text-opacity: 1;
   color: hsl(260 8% 14% / var(--tw-text-opacity));
@@ -938,16 +918,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-violet-100 {
-  --tw-text-opacity: 1;
-  color: rgb(237 233 254 / var(--tw-text-opacity));
-}
-
-.text-red {
-  --tw-text-opacity: 1;
-  color: hsl(0 87% 67% / var(--tw-text-opacity));
 }
 
 .placeholder-yellow-500::-moz-placeholder {
@@ -1007,6 +977,12 @@ video {
   .container {
     max-width: 1536px;
   }
+}
+
+#cta{
+  background-image:url('../images/bg-boost-desktop.svg');
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 .hover\:bg-cyanLight:hover {
