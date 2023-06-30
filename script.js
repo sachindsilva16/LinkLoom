@@ -35,3 +35,24 @@ function submitForm(event){
         input.classList.add("border-red");
     }
 }
+
+
+
+
+// HARMBURGER MENU AND MOBILE MENU CONTAINER 
+
+
+var menu = document.getElementById("menu-btn");
+var mobileMenu = document.getElementById("menu");
+
+
+menu.addEventListener("click",handleClick);
+
+
+function handleClick(){
+
+  menu.classList.toggle("open");
+  mobileMenu.classList.toggle("hidden")
+  
+
+}

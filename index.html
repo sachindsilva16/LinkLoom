@@ -48,7 +48,26 @@
                     Up</a>
             </div>
 
-            <!-- @todo Hamburger Menu -->
+            <!-- Mobile Menu-->
+
+            <div id="menu" class="absolute hidden lg:hidden left-6 right-6 top-20 p-6 bg-darkViolet rounded-lg">
+                <div class="flex flex-col items-center justify-center space-y-6 w-full capitalize">
+                    <a href="#" class="text-center text-white font-bold w-full">features</a>
+                    <a href="#" class="text-center text-white font-bold w-full">pricing</a>
+                    <a href="#" class="text-center text-white font-bold w-full">resources</a>
+                    <a href="#" class="text-center text-white font-bold w-full pt-6 border-t border-gray-500">login</a>
+                    <a href="#" class="text-center text-white font-bold w-full mt-6 bg-cyan p-4 rounded-full hover:bg-white hover:text-darkViolet focus:outline-none duration-500">sign up</a>
+                </div>
+            </div>
+
+
+        <button id="menu-btn" class="hamburger block lg:hidden focus:outline-none">
+
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+
 
         </div>
         <!-- Mobile Menu  -->
@@ -304,6 +323,95 @@
                 Started</button>
         </div>
     </section>
+
+    <!-- Footer Section  -->
+    <footer class="py-16 bg-veryDarkViolet">
+        <div class="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:space-x-6 md:items-start">
+
+            <!-- Logo  -->
+            <img src="images/logo.svg" alt="">
+
+            <!-- Menu Container  -->
+
+            <div class="flex flex-col items-center space-y-16 md:flex-row md:space-x-20 md:space-y-0">
+
+                <!-- Menu 1  -->
+
+                <div class="flex flex-col items-center w-full md:items-start">
+
+                    <!-- Menu heading  -->
+
+                    <div class="mb-5 font-bold text-white captialize">Features</div>
+
+                    <!-- Links  -->
+
+                    <div class="flex flex-col items-center space-y-3 md:items-start">
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">Link Shortening</a>
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">Branded Links</a>
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">Analytics</a>
+                    </div>
+                </div>
+                <!-- Menu 2  -->
+
+                <div class="flex flex-col items-center w-full md:items-start">
+
+                    <!-- Menu heading  -->
+
+                    <div class="mb-5 font-bold text-white captialize">Resources</div>
+
+                    <!-- Links  -->
+
+                    <div class="flex flex-col items-center space-y-3 md:items-start">
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">Blog</a>
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">Developers</a>
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">Support</a>
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500"> Support</a>
+                    </div>
+                </div>
+                <!-- Menu 3  -->
+
+                <div class="flex flex-col items-center w-full md:items-start">
+
+                    <!-- Menu heading  -->
+
+                    <div class="mb-5 font-bold text-white captialize">Company</div>
+
+                    <!-- Links  -->
+
+                    <div class="flex flex-col items-center space-y-3 md:items-start">
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">About</a>
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">Our Teams</a>
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">Career</a>
+                        <a href="#" class="capitalize text-grayishViolet hover:text-cyan duration-500">contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Media Section  -->
+
+            <div class="flex space-x-6 mt-20">
+
+                <!-- Facebook  -->
+                <a href="#">
+                    <img src="images/icon-facebook.svg" alt="" class="hover:invert duration-500">
+                </a>
+                <!-- Twitter  -->
+                
+                <a href="#">
+                    <img src="images/icon-twitter.svg" alt="" class="hover:invert duration-500">
+                </a>
+                <!-- Pinterest  -->
+                <a href="#">
+                    <img src="images/icon-pinterest.svg" alt="" class="hover:invert duration-500">
+                </a>
+                <!-- Instagram -->
+                <a href="#">
+                    <img src="images/icon-instagram.svg" alt="" class="hover:invert duration-500">
+                </a>
+            </div>
+
+        </div>
+    </footer>
 
 
     <script src="script.js"></script>
